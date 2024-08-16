@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="fstyle.css" media="screen" />
+    <title>Sign Up Form</title>
+    <style>
+        body {
+          background-image: url('https://images.pexels.com/photos/24786238/pexels-photo-24786238/free-photo-of-abstract-colorful-painting.jpeg?auto=compress&cs=tinysrgb&w=400');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+        <script src="fscript.js"></script>
+</head>
+<body>
+    <div class="formContainer">
+        <div class="leftSide">
+            <h2 class="formHeader">Submit Your Info...!</h2>
+            <div class="formContentContainer">
+                <form>
+                    <input type="text" name="firstName" class="formInput" placeholder="First Name" required/>
+                    <input type="text" name="lastName" class="formInput" placeholder="Last Name" required/>
+                    <input type="text" name="email" class="formInput" placeholder="Email" required/>
+                    <input type="text" name="phoneNumber" class="formInput" placeholder="Phone Number" required />
+                    <input type="date" name="date" class="date" placeholder="Date" required/>
+                    <input type="file" name="file" class="file" placeholder="file" />
+                    <textarea id="message" name="message" class="message" placeholder="Write here your query..."style="height:60px"></textarea><br>
+                    <div class="captcha">
+                      <label for="captcha-input">Enter Captcha</label>
+                      <div class="preview"></div>
+                      <div class="captcha-form">
+                        <input type="text" id="captcha-form" placeholder="Enter Captcha text">
+                        <button class="captcha-refresh">
+                          <i class="fa fa-refresh"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <input type="submit" class="submitButton" name="submitButton" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="rightSide">
+            <section class="slider_container">
+                <section class="slider">
+                  <div class="slide one">
+                    <img src="https://images.pexels.com/photos/25038245/pexels-photo-25038245/free-photo-of-pink-and-blue-abstract-painting.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> Find Your Own Way. </span>
+                  </div>
+                  <div class="slide two">
+                    <img src="https://images.pexels.com/photos/24850511/pexels-photo-24850511/free-photo-of-barren-trees-in-park.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> Peace is Everywhere. </span>
+                  </div>
+                  <div class="slide three">
+                    <img src="https://images.pexels.com/photos/24783387/pexels-photo-24783387/free-photo-of-creative-abstract-design.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> It's Time To Do.  </span>
+                  </div>
+                  <div class="slide four">
+                    <img src="https://images.pexels.com/photos/24778925/pexels-photo-24778925/free-photo-of-blossoms-in-spring.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> Just Work Hard. </span>
+                  </div>
+                  <div class="slide five">
+                    <img src="https://images.pexels.com/photos/24600252/pexels-photo-24600252/free-photo-of-canvas-on-white-wall.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> See You Soon.. </span>
+                  </div>
+                </section>
+              </section>
+        </div>
+        <div class="orCircle">OR</div>
+    </div>
+   <div> <p class="copyright ">©HTML template by: <a href="THE WARMONGER BABA"> <u>THE WARMONGER BABA</u> </a> </p></div>
+</body>
+</html>
